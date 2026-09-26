@@ -77,7 +77,7 @@ export default function InventoryForm({ onSave, editingItem, onCancel }) {
 
       <div className="form-row">
         <div className="form-group">
-          <label>Price ($)</label>
+          <label>Price (₱)</label>
           <input
             type="number"
             name="price"
