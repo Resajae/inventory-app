@@ -5,9 +5,9 @@ import InventoryList from './components/InventoryList.jsx'
 const STORAGE_KEY = 'inventory-items'
 
 const seedData = [
-  { id: 1, name: 'Wireless Mouse', category: 'Electronics', price: 19.99, quantity: 42 },
-  { id: 2, name: 'Mechanical Keyboard', category: 'Electronics', price: 59.99, quantity: 15 },
-  { id: 3, name: 'Office Chair', category: 'Furniture', price: 129.5, quantity: 0 },
+  { id: 1, name: 'Wireless Mouse', category: 'Electronics', price: 799.99, quantity: 42 },
+  { id: 2, name: 'Mechanical Keyboard', category: 'Electronics', price: 1559.99, quantity: 15 },
+  { id: 3, name: 'Office Chair', category: 'Furniture', price: 1529.55, quantity: 0 },
 ]
 
 function loadItems() {
@@ -75,7 +75,7 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <h1>Inventory Management System</h1>
-        <p>Add, edit, search and remove products in your inventory.</p>
+        <p>Welcome! Manage your inventory with ease.</p>
       </header>
 
       <section className="stats">
